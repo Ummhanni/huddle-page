@@ -1,0 +1,167 @@
+body{
+   letter-spacing: 0.4px;
+   line-height: 30px;
+    padding: 0px;
+    margin: 0px;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+h1, h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+p{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+.whitebutton{
+    background-color: white;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    border: none;
+    border-radius: 25px;
+    height: 6vh;
+    width: 11vw;
+}
+.pinkbutton{
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    height: 6vh;
+    width: 15vw;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+.five{
+    background-color:white ;
+}
+footer{
+    background-color:hsl(192, 100%, 9%) ;
+    color:white ;
+}
+
+
+
+@media screen and (min-width: 700px) {
+    
+    .hero{
+        background-image: url("./bg-hero-desktop.svg");
+        background-color:  hsl(193, 100%, 96%) ;
+        padding: 15px 90px 90px 90px;
+
+    }
+    header{
+        height: 10vh;
+    }
+    .imgbody{
+        width:500px;
+        height: 500px;
+    }
+    h1{
+        font-size: 40px;
+        line-height: 70px;
+    }
+    .one{
+        display: flex;
+        flex-direction: row;
+        padding-top: 60px;
+    }
+    .oneleft{
+        padding-top:120px;
+        padding-right: 50px;
+    }
+    #butt{
+        margin-top: 40px;
+    }
+    .two{
+        display: flex;
+        flex-direction: row;
+        width: 70vw;
+        margin: auto;
+        padding: 50px;
+        border: 1px solid   rgba(249, 249, 249, 1) ;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px 5px  rgba(249, 249, 249, 1);
+        margin: 150px auto 50px;
+    }
+    .three{
+        display: flex;
+        flex-direction: row;
+        width: 70vw;
+        margin: auto;
+        padding: 50px;
+        border: 1px solid   rgba(249, 249, 249, 1) ;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px 5px  rgba(249, 249, 249, 1);
+    }
+    .four{
+        display: flex;
+        flex-direction: row;
+        width: 70vw;
+        margin: auto;
+        padding: 50px;
+        border: 1px solid   rgba(249, 249, 249, 1) ;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px 5px  rgba(249, 249, 249, 1);
+        margin: 50px auto 200px;
+    }
+    .two1, .three1, .four1{
+        margin: auto;
+        width: 30vw;
+    }
+    footer{
+        
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        box-sizing: border-box;
+        padding: 100px;
+        justify-content: space-between;
+    }
+    .foot{
+        display: flex;
+        flex-direction:row;
+    }
+    .icon{
+        width: 20px;
+        height: 20px;
+    }
+    .ft1{
+        width: 30vw;
+    }
+    .ft2{
+        width: 10vw;
+    }
+    .ft3{
+        width: 10vw;
+    }
+
+
+}
+@media screen and (max-width: 500px) {
+    .hero{
+        background-image: url("./bg-hero-mobile.svg");
+        background-color:  hsl(193, 100%, 96%) ;
+    }
+    
+    img{
+        width:80vw;
+        height: 30vh;
+        margin: auto;
+    }
+    .one{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
